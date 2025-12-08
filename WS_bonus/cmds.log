@@ -1,0 +1,16 @@
+
+ 1987  pwd
+ 1988  cd ~
+ 1989  cd Desktop/
+ 1990  ls -latr
+ 1991  ls -latr ; mkdir cs149 ; cd cs149
+ 1992  git init
+ 1993  git remote add origin https://erickunx@github.com/cs149.git
+ 1994  git config --global user.email 'erickunx@gmail.com'
+ 1995  git config --global user.name 'erickunx'
+ 1996  mkdir WS_bonus
+ 1997  cd WS_bonus/
+ 1998  git add .
+ 1999  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 2000  ls -latr
+ 2001  history > cmds.log 
