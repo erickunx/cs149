@@ -1,0 +1,34 @@
+ 2081  cd ~
+ 2082  git clone git://g.csail.mit.edu/xv6-labs-2023
+ 2083  cd xv6-labs-2023/
+ 2084  ls -latr
+ 2085  vi README 
+ 2086  ls -latr
+ 2087  make qemu
+ 2088  sudo apt-get install git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu 
+ 2089  $ qemu-system-riscv64 --version
+ 2090  qemu-system-riscv64 --version
+ 2091  riscv64-linux-gnu-gcc --version
+ 2092  make qemu
+ 2094  ls -latr
+ 2095  rm .README.swp 
+ 2096  vi user/sleep.c
+ 2097  cd user/
+ 2098  ls
+ 2099  ls -latr
+ 2100  vi echo.c
+ 2101  ls
+ 2102  vi sleep.c
+ 2103  nvim sleep.c 
+ 2104  sudo apt install neovim
+ 2105  nvim sleep.c 
+ 2106  cd ..
+ 2107  ls
+ 2108  nvim Makefile 
+ 2109  make qemu
+ 2110  cd user/
+ 2111  ls
+ 2112  nvim sleep.c
+ 2113  cd ..
+ 2114  make GRADEFLAGS=sleep grade
+ 2115  history > worksheet1.log
